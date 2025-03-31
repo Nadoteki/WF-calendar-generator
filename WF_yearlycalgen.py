@@ -38,8 +38,6 @@ def format_date(mydate: datetime):
     res = mydate.strftime("%a, %b ")
     d = mydate.strftime("%d")
     res += d[0].replace("0", "") + d[1] + mydate.strftime(", %Y")
-    print(res)
-    input()
     return res
 
 
